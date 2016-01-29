@@ -1,0 +1,11 @@
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"    xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"    version="2.4">
+ 
+    <servlet>
+        <servlet-name>toon alone</servlet-name>
+        <servlet-class>com.example.web.ToonHandler</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>toon alone</servlet-name>
+        <url-pattern>toon.foo</url-pattern>
+    </servlet-mapping>
+</web-app>
