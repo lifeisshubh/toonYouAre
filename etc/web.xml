@@ -6,6 +6,6 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>toon alone</servlet-name>
-        <url-pattern>toon.foo</url-pattern>
+        <url-pattern>/toon.foo</url-pattern>
     </servlet-mapping>
 </web-app>

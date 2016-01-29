@@ -29,7 +29,7 @@
         <header>
             <h1>Hey!</h1>
             <% 
-            String a = new String(request.getAttribute("msg"));
+            String a = (request.getAttribute("message")).toString();
             out.print("<h2>"+a+"</h2>");
             %>
         </header>
